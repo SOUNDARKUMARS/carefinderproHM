@@ -1,0 +1,10 @@
+<?php
+$hostname="localhost";
+$username="root";
+$password="";
+$database="hospitals";
+$hcon=mysqli_connect($hostname,$username,$password,$database);
+if(!$hcon){
+    die(mysqli_error($hcon));
+}
+?>
